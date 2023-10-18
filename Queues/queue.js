@@ -40,9 +40,12 @@ const myQueue = new Queue();
 myQueue.enqueue(100);
 myQueue.enqueue(101);
 myQueue.enqueue(102);
+
 console.log(myQueue.print());
 console.log(myQueue.size);
 console.log(myQueue.front());
+
 myQueue.dequeue();
+
 console.log(myQueue.front());
 console.log(myQueue.isEmpty());

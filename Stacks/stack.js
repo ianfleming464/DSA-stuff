@@ -18,7 +18,7 @@ class Stack {
 
   peek() {
     // to see which elements lives at the top of the stack (i.e. end of the array)
-    return this.items[this.length - 1];
+    return this.items[this.size - 1];
   }
 
   isEmpty() {
@@ -48,6 +48,9 @@ myStack.push(100);
 myStack.push(101);
 myStack.push(102);
 
+console.log(myStack.print());
+console.log(myStack.peek());
+console.log(myStack.pop());
 console.log(myStack.print());
 
 myStack.clear();
